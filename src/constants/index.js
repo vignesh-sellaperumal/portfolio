@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  vuram,
+  workhall,
 } from "../assets";
 
 export const navLinks = [
@@ -34,27 +32,27 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile App Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Problem Solving",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Structures & Algorithms",
     icon: creator,
   },
 ];
@@ -116,55 +114,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Associate Software Engineer",
+    company_name: "Vuram",
+    icon: vuram,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Develop user-friendly, responsive, and interactive web interfaces using React.js, HTML, CSS, and JavaScript",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Associate Software Engineer",
+    company_name: "Workhall (Formerly a team in Vuram)",
+    icon: workhall,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implement state management solutions such as Redux or the React Context API to manage the application's data and UI state effectively",
+      "Collaborate with UI/UX designers to translate design mockups into functioning web applications while ensuring design consistency and responsiveness",
     ],
   },
 ];

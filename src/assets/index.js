@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import vuram from "./company/vuram.svg";
+import workhall from "./company/workhall.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +58,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  vuram,
+  workhall,
   carrent,
   jobit,
   tripguide,

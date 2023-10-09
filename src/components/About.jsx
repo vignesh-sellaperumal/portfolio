@@ -44,15 +44,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-2-xl leading-[30px]"
       >
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Driven and dedicated Software Developer with 2+ years of experience,
+        committed to crafting innovative and efficient web solutions. Seeking a
+        dynamic role where I can leverage my expertise in React, along with my
+        strong problem-solving skills, to contribute to the development of
+        cutting-edge applications. Eager to continue expanding my knowledge and
+        staying abreast of the latest industry trends to deliver high-quality
+        software products.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

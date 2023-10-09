@@ -1,14 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
-  Contact,
+  // Contact,
   Experience,
-  Feedbacks,
+  // Feedbacks,
   Hero,
   Navbar,
-  Tech,
-  Works,
-  StarsCanvas,
+  // Tech,
+  // Works,
+  // StarsCanvas,
 } from "./components";
 
 function App() {
@@ -21,13 +21,13 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {/* <Tech />
         <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
-        </div>
+        </div> */}
       </div>
     </BrowserRouter>
   );
